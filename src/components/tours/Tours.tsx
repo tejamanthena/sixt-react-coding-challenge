@@ -71,7 +71,7 @@ const Tours = () => {
         <DateTimePicker onChange={onChangeDateTime} value={value} />
       </div>
       <div style={{ marginTop: '20px' }}>
-        <label style={{ marginRight: '20px' }}>Duration</label>
+        <label style={{ marginRight: '20px' }}>Duration (in hours)</label>
         <select style={{ marginLeft: '20px', height: '30px', borderRadius: '3px', fontSize: '15px' }} onChange={onChangeDuration} defaultValue={0}>
           <option value={0} disabled>
             {'Click to see options'}
